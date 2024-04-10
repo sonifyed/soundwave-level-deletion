@@ -17,8 +17,7 @@ The algorithm reads the time series data by the title of the dataframe column, w
 
 **Input audio file**
 
-The algorithm requires a wave file (.wav) audio input file. For our example we have used 'nessun-dorma.wav', an open source (Public Domain Mark 1.0)
- recording of an aria from the opera Turandot by Giacomo Puccini, sung by Antonio Cortis in 1929 (https://archive.org/details/antonio-cortis-giacomo-puccini-turandot-nessun-dorma-gramophone-da-1075)
+The algorithm requires a wave file (.wav) audio input file. For our example we have used 'mother-nature.wav', a public domain voice recording of the Emily Dickinson poem 'Mother Nature' recorded for Librivox.org by Jason Mills (https://archive.org/details/mothernature_1306_librivox/mothernature_dickinson_jcm.mp3). Another example wav file is provided, for nessun-dorma.wav, which is an open source (Public Domain Mark 1.0) recording of an aria from the opera Turandot by Giacomo Puccini, sung by Antonio Cortis in 1929 (https://archive.org/details/antonio-cortis-giacomo-puccini-turandot-nessun-dorma-gramophone-da-1075). However this example is larger so is provided as a zipped file which must be uncompressed before use.
 
 **Gap_size parameter**
 
