@@ -5,6 +5,12 @@ A sonification method which deletes soundwave level data to represent time serie
 
 This algorithm was written as a Jupyter notebook (v6.0.1) running Python (v3.7.4) and uses the wave (v0.0.2), numpy (v1.17.2), and pandas (v0.25.1) python packages.
 
+**Running Jupyter Notebooks**
+
+Please use this advice in downloading and running the Jupyter Notebook: https://www.codecademy.com/article/how-to-use-jupyter-notebooks
+
+
+
 The algorithm is divided into three cells. The first cell imports the packages necessary to run the algorithm. The second cell contains most things that the user may edit: input data as .csv, df_data_column_title, input audio file as .wav, gap_size parameter, the number_of_segments, and the name of the output .wav file. The third cell contains all the rest of the algorithm. The three cells must be run in order for the algorithm to work. On repeat runs in the same session, it is not necessary to run the first cell. 
 
 **Input data**
