@@ -15,7 +15,11 @@ The algorithm is divided into three cells. The first cell imports the packages n
 
 **Input data**
 
-The algorithm takes a comma separated values file (.csv) as input. The data must be time series data ranging between 0 and 1 inclusive. The example data 'Global.csv' uses Living Planet Index data from 1970 to 2018 from the Living Planet Report 2022 (https://www.livingplanetindex.org/publications).
+The algorithm takes a comma separated values file (.csv) as input. The data must be time series data ranging between 0 and 1 inclusive. The example data 'Global.csv' uses Living Planet Index data from 1970 to 2018.
+
+LPI 2022. Living Planet Index
+database. 2022. < www.livingplanetindex.org/>. Downloaded on 29 November 2022
+
 
 **df_data_column_title**
 
@@ -40,6 +44,9 @@ This should be equal to the number of time series data points that you have. Our
 You need to give the title of your output audio wave (.wav) file. Ours is set to 'output-wave-file-name.wav'. It is essential that the flag 'wb' is here as this means that the 'wav file you create is writable.
 
 **Instructions to reproduce 'My Way' Frank Sinatra example**
-1. Source a copy of Frank Sinatra's hit song My Way as a wave file (.wav.).
-2. Save the file in tge same folder as the 
+1. Source a copy of Frank Sinatra's hit song 'My Way' as a wave file (.wav.).
+2. Save the file in tge same folder as the soundwave-level-deletion-algorithm.ipynb algorithm file.
+3. Open the jupyter notebook https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
+4. Change the input .wav file name to match the name of your .wav file of 'My Way'. You may also want to change the name of the output.
+5. Run all three code chunks in order.
 
