@@ -39,3 +39,7 @@ This should be equal to the number of time series data points that you have. Our
 
 You need to give the title of your output audio wave (.wav) file. Ours is set to 'output-wave-file-name.wav'. It is essential that the flag 'wb' is here as this means that the 'wav file you create is writable.
 
+**Instructions to reproduce 'My Way' Frank Sinatra example**
+1. Source a copy of Frank Sinatra's hit song My Way as a wave file (.wav.).
+2. Save the file in tge same folder as the 
+
